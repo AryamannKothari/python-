@@ -1,0 +1,20 @@
+def main():
+    array = [1,2,3,4,5,8]
+    n = len(array)
+    print(n)
+    print(array)
+
+    array.append(10)  #inserts 10 at last index 
+    print(array)
+
+    array.insert(2,11)  #inserts number 11 at index 2
+    print(array)
+
+    array.remove(5) #deletes first occurence of element 5
+    print(array)
+
+    array.pop(1)  #deletes at index 1
+    print(array)
+
+if __name__ == "__main__":
+    main()
